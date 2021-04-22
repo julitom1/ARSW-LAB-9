@@ -52,8 +52,17 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
   
 * ¿Qué es el runtime y que implica seleccionarlo al momento de crear el Function App?
   
-    - Es un sistema que se utiliza principalmente en el desarrollo de software para describir el período de tiempo durante el cual se ejecuta un programa. 
-    - Se ejecuta un cargador que asigna memoria y vincula el programa con las bibliotecas necesarias, entonces comenzarla ejecución. Esto nos ayuda a ver en el momento exacto
+   - Es la infraestructura informática utilizada por Azure Data Factory para proporcionar las siguientes capacidades de integración de datos en diferentes entornos de red:
+      - Flujo de datos
+      - Movimiento de datos 
+      - Despacho de actividades 
+      - Ejecución de paquetes SSIS
+   - Un tiempo de ejecución de integración proporciona el puente entre la actividad y los Servicios vinculados. Se hace referencia a él por el servicio o la actividad vinculados, y proporciona el entorno informático donde se ejecuta la actividad o desde donde se envía. De esta manera, la actividad se puede realizar en la región más cercana posible al almacén de datos de destino o al servicio de cómputo de la manera más eficiente al mismo tiempo que se satisfacen las necesidades de seguridad y cumplimiento.
+
+Flujo de datos : ejecute un flujo de datos en un entorno informático administrado de Azure.
+Movimiento de datos : copie datos entre almacenes de datos en la red pública y almacenes de datos en la red privada (local o red privada virtual). Brinda soporte para conectores integrados, conversión de formato, mapeo de columnas y transferencia de datos escalable y de alto rendimiento.
+Despacho de actividades : envíe y supervise las actividades de transformación que se ejecutan en una variedad de servicios informáticos como Azure Databricks, Azure HDInsight, Azure Machine Learning, Azure SQL Database, SQL Server y más.
+Ejecución de paquetes SSIS : ejecute de forma nativa paquetes de SQL Server Integration Services (SSIS) en un entorno informático administrado de Azure.
 en que la aplicación tuvo un error o finalizo.  
   
 * ¿Por qué es necesario crear un Storage Account de la mano de un Function App?
