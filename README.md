@@ -37,7 +37,18 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 
 5. Modifique la coleción de POSTMAN con NEWMAN de tal forma que pueda enviar 10 peticiones concurrentes. Verifique los resultados y presente un informe.
 
+![](images/Captura30.JPG)
+
+
 6. Cree una nueva Function que resuleva el problema de Fibonacci pero esta vez utilice un enfoque recursivo con memoization. Pruebe la función varias veces, después no haga nada por al menos 5 minutos. Pruebe la función de nuevo con los valores anteriores. ¿Cuál es el comportamiento?.
+
+
+![](images/Captura32.JPG)
+
+
+![](images/Captura33.JPG)
+
+
 
 **Preguntas**
 
@@ -74,4 +85,14 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 * ¿Cómo funciona el sistema de facturación de las Function App?
    - Está dada por el consumo de recursos y por la cantidad y tiempo de las ejeciones efectuadas.
 * Informe
+
+- Sin memorización
+
+
+![](images/Captura31.JPG)
+
+- Con memorización
+
+![](images/Captura37.JPG)
+
 
