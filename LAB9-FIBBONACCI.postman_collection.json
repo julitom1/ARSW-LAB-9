@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "11f9e993-4276-454e-88fd-2bed7b3f1d0a",
+		"name": "LAB9-FIBBONACCI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nth\":800000\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://functitionprojectfibonanci.azurewebsites.net/api/Fibonacci?",
+					"protocol": "https",
+					"host": [
+						"functitionprojectfibonanci",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"Fibonacci"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
