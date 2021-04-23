@@ -37,7 +37,18 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 
 5. Modifique la coleción de POSTMAN con NEWMAN de tal forma que pueda enviar 10 peticiones concurrentes. Verifique los resultados y presente un informe.
 
+![](images/Captura30.JPG)
+
+
 6. Cree una nueva Function que resuleva el problema de Fibonacci pero esta vez utilice un enfoque recursivo con memoization. Pruebe la función varias veces, después no haga nada por al menos 5 minutos. Pruebe la función de nuevo con los valores anteriores. ¿Cuál es el comportamiento?.
+
+
+![](images/Captura32.JPG)
+
+
+![](images/Captura33.JPG)
+
+
 
 **Preguntas**
 
@@ -70,6 +81,18 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
    - **plan Premium de Azure Functions:** Ofrece a los clientes las mismas características y el mismo mecanismo de escalado que se utilizan en el plan Consumo (basado en el número de eventos) sin arranque en frío, con rendimiento mejorado y acceso a VNET. El plan Premium de Azure Functions se factura según el volumen de vCPU y memoria que consumen las funciones.
 
 * ¿Por qué la memoization falla o no funciona de forma correcta?
-   
+   - falla ya que es el Consumption el stack de la memoria puede estarse llenando muy rápidamente y esto produce que la memorización que se hace no pueda funcionar correctamente otro factor es que al ejecutar valores tan grandes la aplicación arrojo error debido a problemas de rango ya que excede el límite de recursión.
 * ¿Cómo funciona el sistema de facturación de las Function App?
+   - Está dada por el consumo de recursos y por la cantidad y tiempo de las ejeciones efectuadas.
 * Informe
+
+- Sin memorización
+
+
+![](images/Captura31.JPG)
+
+- Con memorización
+
+![](images/Captura37.JPG)
+
+
